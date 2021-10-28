@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://DPGL.github.io/about",
   "scripts": {
+    "start": "parcel public/index.html --open",
     "build": "rm -rf dist && parcel build public/index.html --public-url ./",
     "pub": "gh-pages -d dist"
   },
